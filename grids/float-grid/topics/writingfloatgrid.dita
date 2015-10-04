@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN"
+  "../../dtd/technicalContent/dtd/task.dtd">
+
+<task id="" xml:lang="en-us">
+  <!-- <title>Writing a responsive, float-based grid in HTML and CSS</title> -->
+  <title>Writing the grid context in HTML</title>
+  <shortdesc>
+    Every grid needs a well-planned structure of HTML containing blocks.
+  </shortdesc>
+
+  <prolog><metadata>
+    <keywords>
+      <indexterm>HTML</indexterm>
+      <indexterm>grid context</indexterm>
+      <indexterm>containing blocks</indexterm>
+    </keywords>
+  </metadata></prolog>
+
+  <taskbody>
+
+    <context>
+      <p>
+        The key to writing a responsive grid is developing a good HTML structure of containing blocks.
+      </p>
+    </context>
+
+    <steps>
+      <stepsection>
+        If you are coding a float-based, responsive grid, do the following:
+      </stepsection>
+
+      <step>
+        <cmd>Write a wrapper element with a class named "grid"</cmd>
+        <pre><div class="grid">
+  <!-- 100% wide -->
+</div>
+</pre>
+      </step>
+    </steps>
+
+  </taskbody>
+</task>
