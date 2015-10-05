@@ -5,7 +5,7 @@
 <task id="float-grid" xml:lang="en-us">
   <title>Coding a float-based grid</title>
   <shortdesc>
-    Website grids can easily be coded with a simple structure of HTML containing blocks and CSS float and width values.
+    Website grids can be easily coded with a simple structure of HTML containing blocks and CSS float and width values.
   </shortdesc>
 
   <prolog><metadata>
@@ -33,7 +33,7 @@
           <cmd>
             Write a wrapper &lt;div&gt; element with a class named "grid"</cmd>
           <stepxmp>
-            <pre>
+<pre>
 <div class="grid">
   <!-- 100% wide -->
 </div>
@@ -45,7 +45,6 @@
 
     <section>
       <title>Making column widths</title>
-
       <steps-unordered>
         <step>
           <cmd>
@@ -53,7 +52,7 @@
           <info>
             The example below presents a common use case, creating a main content bock with a sidebar to its right.</info>
           <stepxmp>
-            <pre><!-- Example common use case -->
+<pre><!-- Example of a common use case -->
 <div class="grid">
   <div class="col-2-3">
      Main Content
@@ -70,7 +69,7 @@
           <cmd>
             In your CSS file, divide up your 100% grid context by writing classes to create your desired column widths.</cmd>
           <stepxmp>
-            <pre>
+<pre>
 .col-3-4 {
   width: 75%;
 }
@@ -89,7 +88,7 @@
 </pre>
           </stepxmp>
           <note>
-            Note how the class names correspond to the desired output goal to divide the containing block context into columns.
+            Note how the class names correspond to the desired output goal to divide the containing block context into columns.</note>
         </step>
 
         <step>
@@ -98,7 +97,7 @@
           <cmd>
             In order for the columns to assemble in rows, write a regular expression selector to float all of the column classes.</cmd>
           <stepxmp>
-            <pre>
+<pre>
 [class*='col-'] {
   float: left;
 }
@@ -111,13 +110,12 @@
 
     <section>
       <title>Clearing the parent containing block context</title>
-
       <steps>
         <step>
           <cmd>
             In your CSS file, use the <xref href="c_declr-clear"><code>clear</code></xref> declaration inside an <xref href="c_pseudo-elem-after"><code>:after</code></xref> pseudo-element on <code>.grid</code> to clear <xref href="c_pseudo-elem-after"><code>both</code></xref> right and left sides of the block.</cmd>
           <stepxmp>
-            <pre>
+<pre>
 .grid:after {
   content: "";
   display: table;
