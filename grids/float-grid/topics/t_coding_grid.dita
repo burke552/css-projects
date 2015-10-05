@@ -2,7 +2,7 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN"
   "../../dtd/technicalContent/dtd/task.dtd">
 
-<task id="grid-context" xml:lang="en-us">
+<task id="float-grid" xml:lang="en-us">
   <title>Coding a float-based grid</title>
   <shortdesc>
     Website grids can easily be coded with a simple structure of HTML containing blocks and CSS float and width values.
@@ -22,7 +22,7 @@
 
     <context>
       <p>
-        The key to writing a responsive grid is developing a good HTML structure of containing blocks.
+        The key to writing a responsive, float-based grid is developing the 2 following structures of containing blocks: 1) initial grid context, and 2) CSS classes devoted to defining column widths within the former element.
       </p>
     </context>
 
