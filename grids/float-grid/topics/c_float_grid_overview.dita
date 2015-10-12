@@ -11,7 +11,7 @@
   </shortdesc>
 
   <conbody>
-    <p>Every person who begins to design web pages should understand the basic components to float-based, responsive grids.</p>
+    <p>Every person who begins to design web pages should understand the basic components to float-based, responsive grids. In this <xref href="t_coding_grid.dita">tutorial</xref>, you will learn how to write a float-based, responsive grd in HTML and CSS.</p>
   </conbody>
 
 </concept>
