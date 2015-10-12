@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC 
+    "-//OASIS//DTD DITA Task//EN"
+    "/plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/task.dtd">
+
+<task id="clear-fix" xml:lang="en-us">
+  <title>Clear-fix hack</title>
+  <shortdesc>
+    Website grids can be easily codephd with a simple structure of HTML containing blocks and CSS float and width values.
+  </shortdesc>
+
+  <prolog><metadata>
+    <keywords>
+      <indexterm>CSS</indexterm>
+      <indexterm>HTML</indexterm>
+      <indexterm>clear fix</indexterm>
+    </keywords>
+  </metadata></prolog>
+
+  <taskbody>
+      <steps>
+        <step id="cf-step">
+          <cmd>
+            In your CSS file, use the <xref href="c_declr-clear"><codeph>clear</codeph></xref> declaration inside an <xref href="c_pseudo-elem-after"><codeph>:after</codeph></xref> pseudo-element on <codeph>.grid</codeph> to clear <xref href="c_pseudo-elem-after"><codeph>both</codeph></xref> right and left sides of the block.</cmd>
+          <stepxmp>
+<pre>
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</pre>
+          </stepxmp>
+        </step>
+      </steps>
+
+  </taskbody>
+</task>
