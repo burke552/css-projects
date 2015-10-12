@@ -101,7 +101,7 @@ float: left;
       </step>
 
       <stepsection>Clearing the parent containing block context</stepsection>
-      <step conref="../../../shared-topics/t_clearfix.dita#clear-fix/cf-step"><cmd>Insert clearfix</cmd>
+      <step conref="../../../shared-topics/t_clearfix.dita#clear-fix/cf-step"><cmd>Insert clearfix conref</cmd>
       </step>
 
     <!-- <example otherprops="web">
