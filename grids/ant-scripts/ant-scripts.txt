@@ -1,4 +1,0 @@
-<!-- Web Output Custom CSS -->
-<property name="args.css" value="${projdir}/shared-assets/web-css-grids.css"/>
-<property name="args.csspath" value="CSS"/>
-<property name="args.copycss" value="yes"/>
