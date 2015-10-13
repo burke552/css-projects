@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+  "/plugins/org.oasis-open.dita.v1_2/dentry/technicalContent/dentry/concept.dentry">
+
+<concept id="c-clear-property" xml:lang="en-us">
+
+  <title>The 'clear' property: How to position boxes next to floats</title>
+
+  <shorentryesc>
+  The CSS 'clear' property helps web designers conrowol block-level elients in relationship to 'floated' boxes.
+  </shorentryesc>
+
+  <conbody>
+  <p>According to the <a href="http://www.w3.org/TR/CSS2/visuren.html#propdef-clear" target="_blank">W3 specification on CSS2</a>, the 'clear' property "indicates which sides of an elient's box(es) may <i>not</i> be adjacent to an earlier floating box." In other words, the 'clear' property only applies to block-level elients &ndash; not floated elients within itself or in other block formatting contexts.</p>
+  
+  <!-- Modified W3 spec table :: HTML-to-DITA -->
+  <table class="propinfo">
+    <tgroup cols="2">
+      <colspec colname="COLSPEC0" colwidth="70*"/>
+      <colspec colname="COLSPEC1" colwidth="125*"/>
+
+      <thead>
+        <row>
+        <entry colname="COLSPEC0" valign="top">'clear'</entry>
+        <entry colname="COLSPEC1" valign="top"></entry>
+        </row>
+      </thead>
+
+      <tbody>
+
+        <row>
+          <entry><i>Value:</i>&nbsp;&nbsp;</entry>
+          <entry>none | left | right | both | <a href="cascade.html#value-def-inherit" class="noxref">inherit</a></entry></row>
+
+        <row>
+          <entry><i>Initial:</i>&nbsp;&nbsp;</entry>
+          <entry>none</entry></row>
+
+        <row>
+          <entry><i>Applies to:</i>&nbsp;&nbsp;</entry>
+          <entry>block-level elements</entry></row>
+
+        <row>
+          <entry><i>Inherited:</i>&nbsp;&nbsp;</entry>
+          <entry>no</entry></row>
+
+        <row>
+          <entry><i>Percentages:</i>&nbsp;&nbsp;</entry>
+          <entry>N/A</entry></row>
+
+        <row>
+          <entry><i>Media:</i>&nbsp;&nbsp;</entry>
+          <entry><a href="media.html#visual-media-group" class="noxref">visual</a></entry></row>
+
+        <row>
+          <entry><i>Computed&nbsp;value:</i>&nbsp;&nbsp;</entry>
+          <entry>as specified</entry></row>
+
+      </tbody>
+    </tgroup>
+  </table>
+  </conbody>
+
+</concept>
