@@ -1,0 +1,13 @@
+<target name="html5">
+  <ant antfile="${basedir}${file.separator}conductor.xml" target="init">
+    <property name="args.input" value="${file.separator}projects${file.separator}css-projects${file.separator}grids${file.separator}float-grid${file.separator}web_tutorial.ditamap"/>
+
+    <property name="output.dir" value="{file.separator}projects${file.separator}css-projects${file.separator}grids${file.separator}float-grid${file.separator}/web-tut-example"/>
+    
+    <property name="transtype" value="html5"/>
+    
+    <property name="dita.extname" value=".dita"/>
+    
+    <property name="args.hdf" value="{file.separator}projects${file.separator}css-projects${file.separator}grids${file.separator}templates/web_fg_hdr.xml"/>
+  </ant>
+</target>
