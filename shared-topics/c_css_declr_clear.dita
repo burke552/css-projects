@@ -6,9 +6,9 @@
 
   <title>The 'clear' property: How to position boxes next to floats</title>
 
-  <shorentryesc>
+  <shortdesc>
   The CSS 'clear' property helps web designers conrowol block-level elients in relationship to 'floated' boxes.
-  </shorentryesc>
+  </shortdesc>
 
   <conbody>
   <p>According to the <a href="http://www.w3.org/TR/CSS2/visuren.html#propdef-clear" target="_blank">W3 specification on CSS2</a>, the 'clear' property "indicates which sides of an elient's box(es) may <i>not</i> be adjacent to an earlier floating box." In other words, the 'clear' property only applies to block-level elients &ndash; not floated elients within itself or in other block formatting contexts.</p>

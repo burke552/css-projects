@@ -1,0 +1,48 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2015">
+<meta name="DC.rights.owner" content="(C) Copyright 2015">
+<meta name="DC.Type" content="task">
+<meta name="description" content="Website grids can be easily codephd with a simple structure of HTML containing blocks and CSS float and width values."><meta name="DC.subject" content="CSS, HTML, clear fix">
+<meta name="keywords" content="CSS, HTML, clear fix">
+<meta name="DC.Format" content="XHTML">
+<meta name="DC.Identifier" content="clear-fix">
+<meta name="DC.Language" content="en-us">
+<link rel="stylesheet" type="text/css" href="../commonltr.css">
+<title>Clear-fix hack</title>
+</head>
+<body id="clear-fix">
+<main role="main"><article role="article" aria-labelledby="ariaid-title1">
+  <h1 class="title topictitle1" id="ariaid-title1">Clear-fix hack</h1>
+
+  
+
+  
+
+  <div class="body taskbody"><p class="shortdesc">
+    Website grids can be easily codephd with a simple structure of HTML containing blocks and CSS float and width values.
+  </p>
+
+      <div class="li step p" id="clear-fix__cf-step">
+          <span class="ph cmd">
+            
+            In your CSS file, use the <a class="xref" href="../../shared-topics/c_css_declr-clear.html"><samp class="ph codeph">clear</samp></a> declaration inside an <a class="xref" href="../../c_css_pseudo-elem-after.html"><samp class="ph codeph">:after</samp></a> pseudo-element on <samp class="ph codeph">.grid</samp> to clear <a class="xref" href="../../c_css_pseudo-elem-after.html"><samp class="ph codeph">both</samp></a> right and left sides of the block.</span>
+          <div class="itemgroup stepxmp">
+<pre class="pre">
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</pre>
+
+          </div>
+        </div>
+
+
+  </div>
+
+</article></main></body>
+</html>
