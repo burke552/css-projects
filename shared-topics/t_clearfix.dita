@@ -6,7 +6,7 @@
 <task id="clear-fix" xml:lang="en-us">
   <title>Clear-fix hack</title>
   <shortdesc>
-    Website grids can be easily codephd with a simple structure of HTML containing blocks and CSS float and width values.
+    Website grids can be easily coded with a simple structure of HTML containing blocks and CSS float and width values.
   </shortdesc>
 
   <prolog><metadata>
@@ -24,13 +24,13 @@
             <!-- need to revise links to include in generated topics folder -->
             In your CSS file, use the <xref href="../../shared-topics/c_css_declr-clear.dita"><codeph>clear</codeph></xref> declaration inside an <xref href="../../c_css_pseudo-elem-after.dita"><codeph>:after</codeph></xref> pseudo-element on <codeph>.grid</codeph> to clear <xref href="../../c_css_pseudo-elem-after.dita"><codeph>both</codeph></xref> right and left sides of the block.</cmd>
           <stepxmp>
-<pre>
+<codeblock>
 .grid:after {
   content: "";
   display: table;
   clear: both;
 }
-</pre>
+</codeblock>
           </stepxmp>
         </step>
       </steps>
