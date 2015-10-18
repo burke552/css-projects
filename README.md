@@ -11,47 +11,15 @@ This repo contains documentation related to writing Cascading Style Sheets (CSS)
 
 ## Directory Structure
 
-+-----------------------+
+css-projects
+  README.md
+  understanding_css.ditamap
 
-| +-------------------+ |
+  grids
+    README.md
 
-| |   css-projects    | |
+    ant-scripts
+      ant_grid_web_css.xml
 
-| +-------------------+ |
-  |
-  |___README.md
-   ___understanding_css.ditamap
-
-  | +-------------------+ |
-
-  | |       grids       | |
-
-  | +-------------------+ |
-  |
-  |___README.md
-
-    | +-------------------+ |
-
-    | |    ant-scripts    | |
-
-    | +-------------------+ |
-    |
-    |___ant_grid_web_css.xml
-
-  | +-------------------+ |
-
-  | |   shared-assets   | |
-
-  | +-------------------+ |
-
-  | +-------------------+ |
-
-  | |   shared-topics   | |
-
-  | +-------------------+ |
-
-  | +-------------------+ |
-
-  | | understanding-css | |
-
-  | +-------------------+ |
+  shared-assets
+  shared-topics
