@@ -5,10 +5,53 @@ This repo contains documentation related to writing Cascading Style Sheets (CSS)
 ## Projects
 
 - Grids
-	- CSS3 Grid Module
-	- Simple Float Grid
-	- Pure.css framework grid
+  - CSS3 Grid Module
+  - Simple Float Grid
+  - Pure.css framework grid
 
 ## Directory Structure
 
-[insert content]
++-----------------------+
+
+| +-------------------+ |
+
+| |   css-projects    | |
+
+| +-------------------+ |
+  |
+  |___README.md
+   ___understanding_css.ditamap
+
+  | +-------------------+ |
+
+  | |       grids       | |
+
+  | +-------------------+ |
+  |
+  |___README.md
+
+    | +-------------------+ |
+
+    | |    ant-scripts    | |
+
+    | +-------------------+ |
+    |
+    |___ant_grid_web_css.xml
+
+  | +-------------------+ |
+
+  | |   shared-assets   | |
+
+  | +-------------------+ |
+
+  | +-------------------+ |
+
+  | |   shared-topics   | |
+
+  | +-------------------+ |
+
+  | +-------------------+ |
+
+  | | understanding-css | |
+
+  | +-------------------+ |
