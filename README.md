@@ -16,7 +16,6 @@ This repo contains documentation related to writing Cascading Style Sheets (CSS)
   understanding_css.ditamap
 
   grids/
-
     ant-scripts/
       ant_grid_web_css.xml
 
@@ -26,21 +25,17 @@ This repo contains documentation related to writing Cascading Style Sheets (CSS)
       topics/
         c_float_grid_overview.dita
         t_coding_grid.dita
-
       web-tut-example/
       web-tut-float-grid/
-      
       README.md
       pdf_tutorial.ditamap
       web_grid_conceptual.ditamap
       web_tutorial.ditamap
 
     purecss-grid/
-
     shared-assets/
     shared-topics/
     templates/
-
     README.md
 
   shared-assets/
