@@ -11,7 +11,7 @@ This repo contains documentation related to writing Cascading Style Sheets (CSS)
 
 ## Directory Structure
 
-css-projects/
+<pre>css-projects/
   README.md
   understanding_css.ditamap
   grids/
@@ -39,4 +39,4 @@ css-projects/
     c_css_float_positioning_scheme.dita
     c_css_pseudo_elem_after.dita
     c_css_val_both.dita
-    t_clearfix.dita
+    t_clearfix.dita</pre>
