@@ -11,15 +11,32 @@ This repo contains documentation related to writing Cascading Style Sheets (CSS)
 
 ## Directory Structure
 
-css-projects
+css-projects/
   README.md
   understanding_css.ditamap
-
-  grids
-    README.md
-
-    ant-scripts
+  grids/
+    ant-scripts/
       ant_grid_web_css.xml
-
-  shared-assets
-  shared-topics
+    css3-grid-module/
+    float-grid/
+      topics/
+        c_float_grid_overview.dita
+        t_coding_grid.dita
+      web-tut-example/
+      web-tut-float-grid/
+      README.md
+      pdf_tutorial.ditamap
+      web_grid_conceptual.ditamap
+      web_tutorial.ditamap
+    purecss-grid/
+    shared-assets/
+    shared-topics/
+    templates/
+    README.md
+  shared-assets/
+  shared-topics/
+    c_css_declr_clear.dita
+    c_css_float_positioning_scheme.dita
+    c_css_pseudo_elem_after.dita
+    c_css_val_both.dita
+    t_clearfix.dita
