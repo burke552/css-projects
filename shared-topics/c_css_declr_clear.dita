@@ -11,7 +11,7 @@
   </shortdesc>
 
   <conbody>
-  <p>According to the <a href="http://www.w3.org/TR/CSS2/visuren.html#propdef-clear" target="_blank">W3 specification on CSS2</a>, the 'clear' property "indicates which sides of an elient's box(es) may <i>not</i> be adjacent to an earlier floating box." In other words, the 'clear' property only applies to block-level elients &ndash; not floated elients within itself or in other block formatting contexts.</p>
+  <p>According to the <xref href="http://www.w3.org/TR/CSS2/visuren.html#propdef-clear" target="_blank">W3 specification on CSS2</xref>, the 'clear' property "indicates which sides of an elient's box(es) may <i>not</i> be adjacent to an earlier floating box." In other words, the 'clear' property only applies to block-level elients &ndash; not floated elients within itself or in other block formatting contexts.</p>
   
   <!-- Modified W3 spec table :: HTML-to-DITA -->
   <table class="propinfo">
@@ -30,7 +30,7 @@
 
         <row>
           <entry><i>Value:</i>&nbsp;&nbsp;</entry>
-          <entry>none | left | right | both | <a href="cascade.html#value-def-inherit" class="noxref">inherit</a></entry></row>
+          <entry>none | left | right | both | <xref href="cascade.html#value-def-inherit" class="noxref">inherit</xref></entry></row>
 
         <row>
           <entry><i>Initial:</i>&nbsp;&nbsp;</entry>
@@ -50,7 +50,7 @@
 
         <row>
           <entry><i>Media:</i>&nbsp;&nbsp;</entry>
-          <entry><a href="media.html#visual-media-group" class="noxref">visual</a></entry></row>
+          <entry><xref href="media.html#visual-media-group" class="noxref">visual</xref></entry></row>
 
         <row>
           <entry><i>Computed&nbsp;value:</i>&nbsp;&nbsp;</entry>

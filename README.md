@@ -16,6 +16,7 @@ This repo contains documentation related to writing Cascading Style Sheets (CSS)
   understanding_css.ditamap
 
   grids/
+    /*Don't worry about this ant-scripts stuff*/
     ant-scripts/
       ant_grid_web_css.xml
 
