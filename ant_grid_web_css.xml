@@ -4,11 +4,9 @@
   ==================-->
 <project name="grid_web_css" default="grids.grid_web_css" basedir=".">
   
- <property name="dita.dir" location="${basedir}${file.separator}..${file.separator}..${file.separator}.."/>
-
-  <property name="css.output.dir" value="${dita.dir}${file.separator}projects${file.separator}css-projects${file.separator}ex-ant-understanding-css"/>
-
-  <property name="the.input.dir" value="${dita.dir}${file.separator}projects${file.separator}css-projects"/>
+  <property name="dita.dir" location="${basedir}${file.separator}..${file.separator}..${file.separator}.."/>
+  
+  <property name="css.output.dir" value="${dita.dir}${file.separator}projects${file.separator}css-projects${file.separator}grids${file.separator}float-grid${file.separator}ex-ant-understanding-css"/>
   
   <property name="css.source.dir" location="${dita.dir}${file.separator}projects${file.separator}css-projects${file.separator}shared-assets"/>
 
@@ -16,8 +14,7 @@
     <ant antfile="${dita.dir}/build.xml">
 
       <property name="args.input" location="${dita.dir}${file.separator}projects${file.separator}css-projects${file.separator}understanding_css.ditamap"/>
-
-      <property name="input.dir" location="${the.input.dir}"/>
+      
       <property name="output.dir" location="${css.output.dir}"/>
       <property name="transtype" value="html5"/>
       <property name="args.cssroot" location="${css.source.dir}"/>
