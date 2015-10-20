@@ -2,11 +2,13 @@
 <!-- ==================
   Web Output Custom CSS 
   ==================-->
-<project name="grid_web_css" default="grids.grid_web_css" basedir=".">
+<project name="grid_web_css"
+         default="grids.grid_web_css" 
+         basedir=".">
   
  <property name="dita.dir" location="${basedir}${file.separator}..${file.separator}..${file.separator}.."/>
 
-  <property name="css.output.dir" value="${dita.dir}${file.separator}projects${file.separator}css-projects${file.separator}ex-ant-understanding-css"/>
+  <property name="css.output.dir" value="${dita.dir}${file.separator}projects${file.separator}css-projects${file.separator}ant-scripts${file.separator}out${file.separator}ex-ant-understanding-css"/>
 
   <property name="the.input.dir" value="${dita.dir}${file.separator}projects${file.separator}css-projects"/>
   
@@ -24,6 +26,11 @@
       <property name="args.css" value="${css.source.dir}${file.separator}web-css-grids.css"/>
       <property name="args.csspath" value="${css.output.dir}/css"/>
       <property name="args.copycss" value="yes"/>
+
+      <property name="processor" 
+                value="saxon"/>
+      <property name="classpath"
+                value="${dita.dir}${file.separator}lib${file.separator}saxon.jar"/>
 
     </ant>
     <copy todir="${css.output.dir}/css">
