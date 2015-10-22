@@ -46,9 +46,9 @@ By creating the DITA topics &ndash; tasks, concepts, and references &ndash; with
     c_css_val_both.dita
     t_clearfix.dita</pre>
 
-##Sample DITA Commands
+## Sample DITA Commands
 
-###Create an HTML5 site with a custom CSS file
+**Create an HTML5 site with a custom CSS file**:
 
 <pre>
 :~/dita-ot-2.1.1$ dita -f html5 -i 'projects/css-projects/understanding_css.ditamap' \

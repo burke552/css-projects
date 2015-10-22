@@ -3,16 +3,22 @@
   Web Output Custom CSS 
   ==================-->
 <project name="grid_web_css" default="grids.grid_web_css" basedir=".">
+  
+  <property name="dita.dir" 
+            location="${basedir}${file.separator}..${file.separator}..${file.separator}.."/>
 
   <property name="processor" value="saxon"/>
-  
-  <property name="dita.dir" location="${basedir}${file.separator}..${file.separator}..${file.separator}.."/>
+  <property name="classpath"
+            value="${dita.dir}${file.separator}lib${file.separator}saxon.jar"/>
 
-  <property name="css.output.dir" value="${dita.dir}${file.separator}projects${file.separator}css-projects${file.separator}ant-scripts${file.separator}out${file.separator}ex-ant-understanding-css"/>
+  <property name="css.output.dir" 
+            value="${dita.dir}${file.separator}projects${file.separator}css-projects${file.separator}ex-ant-understanding-css"/>
 
-  <property name="the.input.dir" value="${dita.dir}${file.separator}projects${file.separator}css-projects"/>
+  <property name="the.input.dir" 
+            value="${dita.dir}${file.separator}projects${file.separator}css-projects"/>
   
-  <property name="css.source.dir" location="${dita.dir}${file.separator}projects${file.separator}css-projects${file.separator}shared-assets"/>
+  <property name="css.source.dir" 
+            location="${dita.dir}${file.separator}projects${file.separator}css-projects${file.separator}shared-assets"/>
 
   <target name="grids.grid_web_css" depends="clean.grids.grid_web_css">
     <ant antfile="${dita.dir}/build.xml">
