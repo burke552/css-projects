@@ -50,6 +50,13 @@ By creating the DITA topics &ndash; tasks, concepts, and references &ndash; with
 
 ## Sample DITA Commands
 
+**Create an HTML5 site**:
+
+<pre>
+:~/dita-ot-2.1.1$ dita -f html5 -i 'projects/css-projects/understanding_css.ditamap' \
+  -o 'projects/css-projects/ex-understanding-css' \
+</pre>
+
 **Create an HTML5 site with a custom CSS file**:
 
 <pre>
