@@ -4,9 +4,9 @@ This repo contains documentation related to writing Cascading Style Sheets (CSS)
 
 ## Projects
 
-This topic model's scope includes documentation related to CSS. Currently, the architecture includes a child directory, <code>grid</code>, that includes documentation related to developing various grids: <code>css3-grid-module</code>, <code>float-grid</code>, and <code>purecss-grid</code>.
+This topic model's scope includes documentation related to CSS. This <code>css-projects</code> directory is conceptually the parent directory for the larger scope of what would conceivably be a comprehensive corpus of CSS-related documentation. Currently, the architecture includes a child directory, <code>grid</code>, that includes documentation related to developing various grids: <code>css3-grid-module</code>, <code>float-grid</code>, and <code>purecss-grid</code>.
 
-By creating the DITA topics &ndash; tasks, concepts, and references &ndash; within this greater architecture, it provides the writer the opportunity to consider what topics might be best placed within shared-assets or shared-topics to be re-used in other topics. For example, the <code>shared-topics/t_clearfix.dita</code> task topic can be used in multiple writing situations, so it makes sense to put it in a shared directory to be referenced by numerous maps.
+By creating the DITA topics &ndash; tasks, concepts, and references &ndash; within this greater architecture, it provides the writer the opportunity to consider what topics might be best placed within shared-assets or shared-topics to be re-used in other topics across the entire scope of the model. For example, the <code>shared-topics/t_clearfix.dita</code> task topic can be used in multiple writing situations, so it makes sense to put it in a shared directory to be referenced by numerous <code>.ditamaps</code> for best re-use cases.
 
 ## Directory Structure
 
@@ -51,6 +51,35 @@ By creating the DITA topics &ndash; tasks, concepts, and references &ndash; with
 ## DITA-OT Installation
 
 Before using the DITA-OT, be sure to properly set it up on your computer: [http://www.dita-ot.org/2.1/getting-started/index.html](http://www.dita-ot.org/2.1/getting-started/index.html). You will need JAVA JRE or JDK (version 7+) on your computer prior to setting up the ToolKit.
+
+
+### ANT Installation (not required for students)
+
+After you set up java, according to your particular OS (Windows, Mac, or Linux), install ant as per their [documentation](http://ant.apache.org/manual/index.html). Then, set up the environment path variables.
+
+####Windows and OS/2
+
+Assume Ant is installed in <code>c:\ant\</code>. The following sets up the environment:
+
+<pre>set ANT_HOME=c:\ant
+set JAVA_HOME=c:\jdk1.7.0_51
+set PATH=%PATH%;%ANT_HOME%\bin</pre>
+
+####Linux/Unix (bash)
+
+Assume Ant is installed in <code>/usr/local/ant</code>. The following sets up the environment:
+
+<pre>export ANT_HOME=/usr/local/ant
+export JAVA_HOME=/usr/local/jdk1.7.0_51
+export PATH=${PATH}:${ANT_HOME}/bin</pre>
+
+####Linux/Unix (csh)
+
+Assume Ant is installed in <code>/usr/local/ant</code>. The following sets up the environment:
+
+<pre>setenv ANT_HOME /usr/local/ant
+setenv JAVA_HOME /usr/local/jdk/jdk1.7.0_51
+set path=( $path $ANT_HOME/bin )</pre>
 
 ## Sample DITA Commands
 
