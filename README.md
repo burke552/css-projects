@@ -48,9 +48,11 @@ By creating the DITA topics &ndash; tasks, concepts, and references &ndash; with
     t_clearfix.dita
 </pre>
 
-## Sample DITA Commands
+## DITA-OT Installation
 
-Before using the DITA-OT, be sure to properly set it up on your computer: [http://www.dita-ot.org/2.1/getting-started/index.html](http://www.dita-ot.org/2.1/getting-started/index.html).
+Before using the DITA-OT, be sure to properly set it up on your computer: [http://www.dita-ot.org/2.1/getting-started/index.html](http://www.dita-ot.org/2.1/getting-started/index.html). You will need JAVA JRE or JDK (version 7+) on your computer prior to setting up the ToolKit.
+
+## Sample DITA Commands
 
 **Command for <code>dita</code> command help**:
 
