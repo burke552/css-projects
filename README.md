@@ -63,8 +63,8 @@ Assume Ant is installed in <code>c:&#92;ant&#92;</code>. The following sets up t
 
 <pre>
 set ANT_HOME=c:\ant
-  set JAVA_HOME=c:\jdk1.7.0_51
-  set PATH=%PATH%;%ANT_HOME%\bin
+set JAVA_HOME=c:\jdk1.7.0_51
+set PATH=%PATH%;%ANT_HOME%\bin
 </pre>
 
 ####Linux/Unix (bash)
@@ -73,8 +73,8 @@ Assume Ant is installed in <code>/usr/local/ant</code>. The following sets up th
 
 <pre>
 export ANT_HOME=/usr/local/ant
-  export JAVA_HOME=/usr/local/jdk1.7.0_51
-  export PATH=${PATH}:${ANT_HOME}/bin
+export JAVA_HOME=/usr/local/jdk1.7.0_51
+export PATH=${PATH}:${ANT_HOME}/bin
 </pre>
 
 ####Linux/Unix (csh)
@@ -83,8 +83,8 @@ Assume Ant is installed in <code>/usr/local/ant</code>. The following sets up th
 
 <pre>
 setenv ANT_HOME /usr/local/ant
-  setenv JAVA_HOME /usr/local/jdk/jdk1.7.0_51
-  set path=( $path $ANT_HOME/bin )
+setenv JAVA_HOME /usr/local/jdk/jdk1.7.0_51
+set path=( $path $ANT_HOME/bin )
 </pre>
 
 ## Sample DITA Commands
