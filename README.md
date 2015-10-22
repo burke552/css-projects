@@ -59,7 +59,7 @@ After you set up java, according to your particular OS (Windows, Mac, or Linux),
 
 ####Windows and OS/2
 
-Assume Ant is installed in <code>c:\ant\</code>. The following sets up the environment:
+Assume Ant is installed in <code>c:&#92;ant&#92;</code>. The following sets up the environment:
 
 <pre>
 set ANT_HOME=c:\ant
