@@ -50,6 +50,12 @@ By creating the DITA topics &ndash; tasks, concepts, and references &ndash; with
 
 ## Sample DITA Commands
 
+**Command for <code>dita</code> command help**:
+
+<pre>
+:~/dita-ot-2.1.1$ dita --help
+</pre>
+
 **Create an HTML5 site**:
 
 <pre>
