@@ -87,6 +87,33 @@ The following steps guide you to set up the DITA Open Toolkit processing environ
 5) Test the DITA-OT installation with the demo conversions.
 
 
+## Sample DITA Commands
+
+**Command for <code>dita</code> command help**:
+
+<pre>
+:~/dita-ot-2.1.1$ dita --help
+</pre>
+
+**Create an HTML5 site**:
+
+<pre>
+:~/dita-ot-2.1.1$ dita -f html5 -i 'projects/css-projects/understanding_css.ditamap' \
+  -o 'projects/css-projects/ex-understanding-css' \
+</pre>
+
+**Create an HTML5 site with a custom CSS file**:
+
+<pre>
+:~/dita-ot-2.1.1$ dita -f html5 -i 'projects/css-projects/understanding_css.ditamap' \
+  -o 'projects/css-projects/ex-understanding-css' \
+  -Dargs.cssroot='projects/css-projects/shared-assets' \
+  -Dargs.css='${cssroot}/web-css-grids.css' \
+  -Dargs.csspath='css' \
+  -Dargs.copycss='yes'
+</pre>
+
+
 ### ANT Installation (not required for students)
 
 After you set up java, according to your particular OS (Windows, Mac, or Linux), install ant as per their [documentation](http://ant.apache.org/manual/index.html). Then, set up the environment path variables.
@@ -119,30 +146,4 @@ Assume Ant is installed in <code>/usr/local/ant</code>. The following sets up th
 setenv ANT_HOME /usr/local/ant
 setenv JAVA_HOME /usr/local/jdk/jdk1.7.0_51
 set path=( $path $ANT_HOME/bin )
-</pre>
-
-## Sample DITA Commands
-
-**Command for <code>dita</code> command help**:
-
-<pre>
-:~/dita-ot-2.1.1$ dita --help
-</pre>
-
-**Create an HTML5 site**:
-
-<pre>
-:~/dita-ot-2.1.1$ dita -f html5 -i 'projects/css-projects/understanding_css.ditamap' \
-  -o 'projects/css-projects/ex-understanding-css' \
-</pre>
-
-**Create an HTML5 site with a custom CSS file**:
-
-<pre>
-:~/dita-ot-2.1.1$ dita -f html5 -i 'projects/css-projects/understanding_css.ditamap' \
-  -o 'projects/css-projects/ex-understanding-css' \
-  -Dargs.cssroot='projects/css-projects/shared-assets' \
-  -Dargs.css='${cssroot}/web-css-grids.css' \
-  -Dargs.csspath='css' \
-  -Dargs.copycss='yes'
 </pre>
