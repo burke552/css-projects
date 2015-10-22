@@ -10,7 +10,8 @@ By creating the DITA topics &ndash; tasks, concepts, and references &ndash; with
 
 ## Directory Structure
 
-<pre>css-projects/
+<pre>
+  css-projects/
   README.md
   understanding_css.ditamap
 
@@ -44,7 +45,8 @@ By creating the DITA topics &ndash; tasks, concepts, and references &ndash; with
     c_css_float_positioning_scheme.dita
     c_css_pseudo_elem_after.dita
     c_css_val_both.dita
-    t_clearfix.dita</pre>
+    t_clearfix.dita
+</pre>
 
 ## Sample DITA Commands
 
@@ -52,9 +54,9 @@ By creating the DITA topics &ndash; tasks, concepts, and references &ndash; with
 
 <pre>
 :~/dita-ot-2.1.1$ dita -f html5 -i 'projects/css-projects/understanding_css.ditamap' \
--o 'projects/css-projects/ex-understanding-css' \
--Dargs.cssroot='projects/css-projects/shared-assets' \
--Dargs.css='${cssroot}/web-css-grids.css' \
--Dargs.csspath='css' \
--Dargs.copycss='yes'
+  -o 'projects/css-projects/ex-understanding-css' \
+  -Dargs.cssroot='projects/css-projects/shared-assets' \
+  -Dargs.css='${cssroot}/web-css-grids.css' \
+  -Dargs.csspath='css' \
+  -Dargs.copycss='yes'
 </pre>
