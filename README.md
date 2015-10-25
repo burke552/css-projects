@@ -56,6 +56,15 @@ By creating the DITA topics &ndash; tasks, concepts, and references &ndash; with
 username@computername:~/dita-ot-2.1.1$ dita --help
 </pre>
 
+<pre>
+/* DITA options and arguments */
+
+-f == dita output format
+-i == dita input map file
+-o == dita output directory
+-D&lt;property&gt;=&lt;value&gt;
+</pre>
+
 **Create an HTML5 site**:
 
 <pre>
