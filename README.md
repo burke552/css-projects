@@ -62,7 +62,8 @@ username@computername:~/dita-ot-2.1.1$ dita --help
 -f == dita output format
 -i == dita input map file
 -o == dita output directory
--D&lt;property&gt;=&lt;value&gt;
+-D&lt;property&gt;=&lt;value&gt; == add custom args 
+    with particular values to dita transformation
 </pre>
 
 **Create an HTML5 site**:
