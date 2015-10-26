@@ -7,12 +7,12 @@
   <title>CSS float positioning scheme</title>
 
   <shortdesc>
-    Writing CSS involves learning about the different ways you can manipulate the '<xref href="c_box_model.dita">box model</xref>' and its <xref href="c_positioning_schemes.dita">positioning schemes</xref>. One important writing and design method is working with the float positioning scheme.
+    Writing CSS involves learning about the different ways you can manipulate the 'box model' and its positioning schemes. One important writing and design method is working with the float positioning scheme.
   </shortdesc>
 
   <conbody>
     <p>According to the CSS Working Group, a float positioning scheme defines the behavior of a box. A box can be "floated" left, right, both, or none within its current position and relation to its parent containing block and other inline elements.</p>
-    <p>For a detailed review of float positioning scheme behavior, see the W3 specification: <a href="http://www.w3.org/TR/CSS2/visuren.html#floats" target="_blank">http://www.w3.org/TR/CSS2/visuren.html#floats</a> [outbound link].</p>
+    <p>For a detailed review of float positioning scheme behavior, see the W3 specification: <xref href="http://www.w3.org/TR/CSS2/visuren.html#floats" scope="external" >http://www.w3.org/TR/CSS2/visuren.html#floats</xref> [outbound link].</p>
   </conbody>
 
 </concept>
