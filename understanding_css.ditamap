@@ -14,6 +14,7 @@
     <topicmeta><navtitle>Float positioning</navtitle></topicmeta>
     <topicref href="shared-topics/c_css_float_positioning.dita" type="concept">
       <topicref href="shared-topics/c_css_declr_clear.dita" type="concept">
+          <topicref href="shared-topics/c_css_val_both.dita" type="concept"></topicref>
           <topicref href="shared-topics/t_clearfix.dita" type="task"></topicref>
       </topicref>
     </topicref>

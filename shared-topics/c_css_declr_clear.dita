@@ -7,7 +7,7 @@
   <title>The 'clear' property: How to position boxes next to floats</title>
 
   <shortdesc>
-  The CSS 'clear' property helps web designers conrowol block-level elients in relationship to 'floated' boxes.
+  The CSS 'clear' property helps web designers control block-level elients in relationship to 'floated' boxes.
   </shortdesc>
 
   <conbody>
