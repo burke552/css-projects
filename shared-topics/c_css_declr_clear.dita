@@ -11,7 +11,7 @@
   </shortdesc>
 
   <conbody>
-  <p>According to the <xref href="http://www.w3.org/TR/CSS2/visuren.html#propdef-clear" scope="external">W3 specification on CSS2</xref>, the 'clear' property "indicates which sides of an elient's box(es) may <i>not</i> be adjacent to an earlier floating box." In other words, the 'clear' property only applies to block-level elients -- not floated elients within itself or in other block formatting contexts.</p>
+  <p>According to the <xref href="http://www.w3.org/TR/CSS2/visuren.html#propdef-clear" scope="external">W3 specification on CSS2</xref>, the 'clear' property "indicates which sides of an element's box(es) may <i>not</i> be adjacent to an earlier floating box." In other words, the 'clear' property only applies to block-level elements -- not floated elements within itself or in other block formatting contexts.</p>
   
   <!-- Modified W3 spec table :: HTML-to-DITA -->
   <table>
