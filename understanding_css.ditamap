@@ -6,27 +6,33 @@
    applicable licenses.-->
 <!-- (C) Copyright IBM Corporation 2001, 2005. All Rights Reserved.
  *-->
-<map id="understanding-css">
+<map id="understanding-css-grids">
 
-  <title>Understanding CSS</title>
+  <title>Understanding CSS Grids</title>
 
   <topichead id="understanding-css">
+    <topicmeta><navtitle>Understanding CSS Grids</navtitle></topicmeta>
 
-    <topichead id="float-positioning">
-      <topicmeta><navtitle>Float positioning</navtitle></topicmeta>
-      <topicref href="shared-topics/c_css_float_positioning_scheme.dita" type="concept">
-        <topicref href="shared-topics/c_css_declr_clear.dita" type="concept">
-            <topicref href="shared-topics/c_css_val_both.dita" type="concept"></topicref>
-            <topicref href="shared-topics/t_clearfix.dita" type="task"></topicref>
-        </topicref>
-      </topicref>
-    </topichead>
-
-    <topichead id="css-grids">
-      <topicmeta><navtitle>CSS Grids</navtitle></topicmeta>
+    <topichead id="css-grid-tutorials">
+      <topicmeta><navtitle>CSS Grid Tutorials</navtitle></topicmeta>
       <topichead conref="grids/float-grid/web_tutorial.ditamap#float-grid-map">
         <topicref></topicref>
       </topichead>
+    </topichead>
+
+    <topichead id="conceptual-css">
+      <topicmeta><navtitle>Common CSS Grid Properties</navtitle></topicmeta>
+
+      <topichead id="float-positioning">
+        <topicmeta><navtitle>Float positioning</navtitle></topicmeta>
+        <topicref href="shared-topics/c_css_float_positioning_scheme.dita" type="concept">
+          <topicref href="shared-topics/c_css_declr_clear.dita" type="concept">
+              <topicref href="shared-topics/c_css_val_both.dita" type="concept"></topicref>
+              <topicref href="shared-topics/t_clearfix.dita" type="task"></topicref>
+          </topicref>
+        </topicref>
+      </topichead>
+
     </topichead>
 
   </topichead>
