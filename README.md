@@ -13,7 +13,7 @@ By creating the DITA topics &ndash; tasks, concepts, and references &ndash; with
 <pre>
   css-projects/
   README.md
-  understanding_css.ditamap
+  understanding_css_grids.ditamap
 
   grids/
     /*Don't worry about this ant-scripts stuff*/
@@ -48,7 +48,11 @@ By creating the DITA topics &ndash; tasks, concepts, and references &ndash; with
     t_clearfix.dita
 </pre>
 
-## Sample DITA Commands
+## Building DITA Transformations
+
+See the DITA-OT user guide about how to generate output: [http://www.dita-ot.org/2.1/getting-started/using-dita-command.html](http://www.dita-ot.org/2.1/getting-started/using-dita-command.html)
+
+### Sample DITA Commands
 
 **Command for <code>dita</code> command help**:
 
@@ -70,14 +74,14 @@ username@computername:~/dita-ot-2.1.1$ dita --help
 
 <pre>
 username@computername:~/dita-ot-2.1.1$ dita -f html5 -i 'projects/css-projects/understanding_css.ditamap' \
-  -o 'projects/css-projects/ex-understanding-css' \
+  -o 'projects/css-projects/out/html5/ex-understanding-css' \
 </pre>
 
 **Create an HTML5 site with a custom CSS file**:
 
 <pre>
 username@computername:~/dita-ot-2.1.1$ dita -f html5 -i 'projects/css-projects/understanding_css.ditamap' \
-  -o 'projects/css-projects/ex-understanding-css' \
+  -o 'projects/css-projects/out/html5/ex-understanding-css' \
   -Dargs.cssroot='projects/css-projects/shared-assets' \
   -Dargs.css='${cssroot}/web-css-grids.css' \
   -Dargs.csspath='css' \
@@ -88,5 +92,5 @@ username@computername:~/dita-ot-2.1.1$ dita -f html5 -i 'projects/css-projects/u
 
 <pre>
 username@computername:~/dita-ot-2.1.1$ dita -f pdf -i 'projects/css-projects/understanding_css.ditamap' \
-  -o 'projects/css-projects/ex-understanding-css' \
+  -o 'projects/css-projects/out/html5/ex-understanding-css' \
 </pre>
