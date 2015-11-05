@@ -3,9 +3,9 @@
   "/plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/task.dtd">
 
 <task id="t-float-grid" xml:lang="en-us">
-  <title>How to code a float-based, responsive grid</title>
+  <title>Coding a float-based, responsive grid</title>
   <titlealts>
-    <navtitle>How to code a float-based, responsive grid</navtitle>
+    <navtitle>Coding a float-based, responsive grid</navtitle>
   </titlealts>
 
   <prolog><metadata>

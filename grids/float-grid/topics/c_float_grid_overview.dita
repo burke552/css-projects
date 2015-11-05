@@ -4,7 +4,7 @@
 
 <concept id="c-float-grid" xml:lang="en-us">
 
-  <title>Coding a float-based grid in CSS</title>
+  <title>Introduction to the float-based grid in CSS</title>
 
   <shortdesc>
     Website grids can be easily coded with a simple structure of HTML containing blocks and CSS float and width values.

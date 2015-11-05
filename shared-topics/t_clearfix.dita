@@ -4,11 +4,7 @@
     "/plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/task.dtd">
 
 <task id="clear-fix" xml:lang="en-us">
-  <title>Clear-fix hack</title>
-  <shortdesc>
-    Website grids can be easily coded with a simple structure of HTML containing blocks and CSS float and width values.
-  </shortdesc>
-
+  <title>Writing a clear-fix hack</title>
   <prolog><metadata>
     <keywords>
       <indexterm>CSS</indexterm>
