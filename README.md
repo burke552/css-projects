@@ -11,41 +11,41 @@ By creating the DITA topics &ndash; tasks, concepts, and references &ndash; with
 ## Directory Structure
 
 <pre>
-  css-projects/
-  README.md
+css-projects/
+  float_grids.ditamap
   understanding_css_grids.ditamap
+  ...
 
   grids/
-    /*Don't worry about this ant-scripts stuff*/
-    ant-scripts/
-      ant_grid_web_css.xml
-
+    bootstrap3-grid/
+      ... 
     css3-grid-module/
+      ...
+    flexbox-grid/
+      ...
 
     float-grid/
       topics/
         c_float_grid_overview.dita
         t_coding_grid.dita
-      web-tut-example/
-      web-tut-float-grid/
       README.md
-      pdf_tutorial.ditamap
-      web_grid_conceptual.ditamap
-      web_tutorial.ditamap
 
     purecss-grid/
+      ...
+
     shared-assets/
     shared-topics/
     templates/
-    README.md
 
   shared-assets/
+    web-css-grids.css
   shared-topics/
     c_css_declr_clear.dita
     c_css_float_positioning_scheme.dita
     c_css_pseudo_elem_after.dita
     c_css_val_both.dita
     t_clearfix.dita
+
 </pre>
 
 ## Building DITA Transformations
