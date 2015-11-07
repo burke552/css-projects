@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE task PUBLIC 
-    "-//OASIS//DTD DITA Task//EN"
-    "/plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/task.dtd">
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "/plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/task.dtd">
 
 <task id="clear-fix" xml:lang="en-us">
-  <title>Writing a clear-fix hack</title>
+  <title>Coding a clear-fix hack</title>
   <prolog><metadata>
     <keywords>
       <indexterm>CSS</indexterm>
@@ -17,11 +15,10 @@
       <steps>
         <step id="cf-step">
           <cmd>
-            <!-- need to revise links to include in generated topics folder -->
-            In your CSS file, use the <xref href="c_css_declr_clear.dita"><codeph>clear</codeph></xref> declaration inside an <xref href="c_css_pseudo_elem_after.dita"><codeph>:after</codeph></xref> pseudo-element on <codeph>.grid</codeph> to clear <xref href="c_css_val_both.dita"><codeph>both</codeph></xref> right and left sides of the block.</cmd>
+            In your CSS file, use the <xref href="c_css_declr_clear.dita"><codeph>clear</codeph></xref> declaration inside an <xref href="c_css_pseudo_elem_after.dita"><codeph>:after</codeph></xref> pseudo-element on a new <codeph>.cf</codeph> class to clear <xref href="c_css_val_both.dita"><codeph>both</codeph></xref> right and left sides of the parent containing block.</cmd>
           <stepxmp>
 <codeblock>
-.grid:after {
+.cf:after {
   content: "";
   display: table;
   clear: both;
