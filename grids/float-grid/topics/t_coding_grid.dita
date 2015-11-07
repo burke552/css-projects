@@ -106,7 +106,7 @@ float: left;
         </step>
 
       <step>
-        <cmd>Apply the <codeph>.cf</codeph> clear-fix class to the parent containing block: <codeph>.grid</cmd>
+        <cmd>Apply the <codeph>.cf</codeph> clear-fix class to the parent containing block: <codeph>.grid</codeph></cmd>
         <stepxmp>
 <codeblock>
 &lt;div class="grid cf"&gt;
@@ -116,7 +116,7 @@ float: left;
         </stepxmp>
       </step>
 
-    <!-- <example otherprops="web">
+    <!-- <example otherprops="html5-out">
       <p data-height="312" data-theme-id="0" data-slug-hash="ojBpXW" data-default-tab="result" data-user="lndgrn" class='codepen'>See the Pen <a href='http://codepen.io/lndgrn/pen/ojBpXW/'>Basic CSS Float Grid</a> by Chris Lindgren (<a href='http://codepen.io/lndgrn'>@lndgrn</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
       <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
     </example> -->

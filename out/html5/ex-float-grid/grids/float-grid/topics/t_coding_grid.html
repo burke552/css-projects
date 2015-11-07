@@ -107,11 +107,10 @@ float: left;
       </li>
 </ol><p class="li stepsection">Clearing the parent containing block context</p><ol start="5"><li class="li step stepexpand">
           <span class="ph cmd">
-            
-            In your CSS file, use the <a class="xref" href="../../../shared-topics/c_css_declr_clear.html" title="The CSS 'clear' property helps web designers control block-level elients in relationship to 'floated' boxes."><samp class="ph codeph">clear</samp></a> declaration inside an <a class="xref" href="../../../shared-topics/c_css_pseudo_elem_after.html" title="Enter short description."><samp class="ph codeph">:after</samp></a> pseudo-element on <samp class="ph codeph">.grid</samp> to clear <a class="xref" href="../../../shared-topics/c_css_val_both.html" title="Enter short description."><samp class="ph codeph">both</samp></a> right and left sides of the block.</span>
+            In your CSS file, use the <a class="xref" href="../../../shared-topics/c_css_declr_clear.html" title="The CSS 'clear' property helps web designers control block-level elients in relationship to 'floated' boxes."><samp class="ph codeph">clear</samp></a> declaration inside an <a class="xref" href="../../../shared-topics/c_css_pseudo_elem_after.html" title="Enter short description."><samp class="ph codeph">:after</samp></a> pseudo-element on a new <samp class="ph codeph">.cf</samp> class to clear <a class="xref" href="../../../shared-topics/c_css_val_both.html" title="Enter short description."><samp class="ph codeph">both</samp></a> right and left sides of the parent containing block.</span>
           <div class="itemgroup stepxmp">
 <pre class="pre codeblock">
-.grid:after {
+.cf:after {
   content: "";
   display: table;
   clear: both;
@@ -120,6 +119,17 @@ float: left;
 
           </div>
         </li>
+<li class="li step stepexpand">
+        <span class="ph cmd">Apply the <samp class="ph codeph">.cf</samp> clear-fix class to the parent containing block: <samp class="ph codeph">.grid</samp></span>
+        <div class="itemgroup stepxmp">
+<pre class="pre codeblock">
+&lt;div class="grid cf"&gt;
+  ...
+&lt;/div&gt;
+</pre>
+
+        </div>
+      </li>
 </ol>
   </div>
 
