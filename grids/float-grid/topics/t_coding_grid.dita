@@ -101,7 +101,19 @@ float: left;
       </step>
 
       <stepsection>Clearing the parent containing block context</stepsection>
-      <step conref="../../../shared-topics/t_clearfix.dita#clear-fix/cf-step"><cmd>Insert clearfix conref</cmd>
+        <step conref="../../../shared-topics/t_clearfix.dita#clear-fix/cf-step">
+          <cmd>Insert clearfix conref</cmd>
+        </step>
+
+      <step>
+        <cmd>Apply the <codeph>.cf</codeph> clear-fix class to the parent containing block: <codeph>.grid</cmd>
+        <stepxmp>
+<codeblock>
+&lt;div class="grid cf"&gt;
+  ...
+&lt;/div&gt;
+</codeblock>
+        </stepxmp>
       </step>
 
     <!-- <example otherprops="web">
